@@ -9,8 +9,11 @@
     align-items: center;
 }
 .gameContainer{
-    width: 30vw;
+    width: 32vw;
     height: 65vh;
     background-color: white;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

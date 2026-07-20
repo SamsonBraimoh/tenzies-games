@@ -1,0 +1,25 @@
+.diceContainer{
+    /* display: flex; */
+    /* gap: 1rem; */
+    border: 1px solid skyblue;
+    display: grid;
+    grid-template: auto auto / repeat(5, 1fr);
+    gap: 1rem;
+}
+.rollDice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.button{
+    width: 92px;
+    height: 35px;
+    background-color: #5035FF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #fff;
+}
