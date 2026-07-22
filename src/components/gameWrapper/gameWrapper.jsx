@@ -6,6 +6,10 @@ export default function GameWrapper(){
         <>
             <section className={style.main}>
                 <main className={style.gameContainer}>
+                  <header className={style.gameHeading}>
+                        <h1>Tenzies</h1>
+                        <p>Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
+                 </header>  
                   <DiceWrapper />  
                 </main>
             </section>

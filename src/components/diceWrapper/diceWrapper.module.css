@@ -1,7 +1,7 @@
 .diceContainer{
     /* display: flex; */
     /* gap: 1rem; */
-    border: 1px solid skyblue;
+    /* border: 1px solid skyblue; */
     display: grid;
     grid-template: auto auto / repeat(5, 1fr);
     gap: 1rem;
@@ -22,4 +22,7 @@
     cursor: pointer;
     font-weight: bold;
     color: #fff;
+}
+button:focus{
+    border: 3px solid skyblue;
 }

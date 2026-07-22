@@ -7,13 +7,26 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: sans-serif;
 }
 .gameContainer{
     width: 32vw;
     height: 65vh;
     background-color: white;
     border-radius: 10px;
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
+.gameHeading{
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+}
+
